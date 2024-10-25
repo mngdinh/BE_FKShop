@@ -37,7 +37,13 @@ spring:
     ShopID : 194712
     from-district-id : 3695 # Thu Duc City
 
-
+amazonProperties:
+  endpointUrl: https://s3.ap-southeast-2.amazonaws.com
+  accessKey: AKIAZAI4HAZUOPJH4T5F
+  secretKey: 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
+  bucketName: fkshop
+  folder:
+    Product: Product
 
 ## secretKey
 jwt:
